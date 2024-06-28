@@ -11,7 +11,7 @@ for a in acao:
   data = yf.download(a, start=data_incial, end=data_final, progress=False) 
   df = pd.DataFrame(data)
   df['name'] = a
-  df.to_csv(f'{a}-{date.today()}.csv')
+  df.to_csv(f'Arquivos/{a}-{date.today()}.csv')
 
   
  
