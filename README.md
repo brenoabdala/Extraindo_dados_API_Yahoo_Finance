@@ -1,0 +1,1 @@
+# Extraindo_dados_Yahoo_Finance
